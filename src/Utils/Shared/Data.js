@@ -3,9 +3,9 @@ import image2 from "../../assets/images/book16 1 (1).png";
 import image3 from "../../assets/images/book16 1 (2).png";
 import image4 from "../../assets/images/book3 4 (1).png";
 import image5 from "../../assets/images/book3 4.png";
-import image6 from "../../assets/images/book5 5.png";
-import image7 from "../../assets/images/book.png";
-import image8 from "../../assets/images/book4 4.png";
+import image6 from "../../assets/images/book.png";
+import image7 from "../../assets/images/book4 4.png";
+import image8 from "../../assets/images/book55.jpg";
 
 
 export const images = [
@@ -17,4 +17,5 @@ export const images = [
   {  src: image6, alt: "image6" },
   {  src: image7, alt: "image7" },
   {  src: image8, alt: "image8" },
+ 
 ];

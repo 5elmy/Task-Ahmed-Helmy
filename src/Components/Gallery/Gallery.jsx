@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import GalleryModal from '../GalleryModal/GalleryModal';
 import GalleryItem from './GalleryItem';
 import { images } from '../../Utils/Shared/Data';
@@ -32,7 +32,7 @@ export default function Gallery() {
 
 
   return (
-    <div className="bg-[#031d33]">
+    <div dir='rtl' className="bg-[#031d33]">
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {images.map((image, index) => (
@@ -41,7 +41,7 @@ export default function Gallery() {
           ))}
         </div>
           {/* Modal */}
-          <GalleryModal isOpen={isOpen}  setSelectedImageIndex={setSelectedImageIndex} selectedImageIndex={selectedImageIndex} />
+          <GalleryModal  isOpen={isOpen}   setSelectedImageIndex={setSelectedImageIndex} selectedImageIndex={selectedImageIndex} />
       </div>
     </div>
   );
