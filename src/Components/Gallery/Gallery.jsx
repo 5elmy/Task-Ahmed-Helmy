@@ -32,7 +32,7 @@ export default function Gallery() {
 
 
   return (
-    <div dir='rtl' className="bg-[#031d33]">
+    <div dir='rtl' className="bg-[#031d33] py-5 min-h-screen">
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {images.map((image, index) => (
